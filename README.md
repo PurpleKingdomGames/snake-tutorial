@@ -1,6 +1,10 @@
 # Snake Tutorial
 
-This repository accompanies a video tutorial available on YouTube.
+This repository accompanies a video tutorial available on YouTube, and contains the completed code.
+
+As in the tutorial, if you'd like to start from scratch, please use [Indigo's Giter8 template](https://github.com/PurpleKingdomGames/indigo.g8).
+
+> Please note that this contains Nix flake files. If you're not a Nix user, you can safely ignore / delete them.
 
 Below follows the standard README from the Giter8 template.
 
