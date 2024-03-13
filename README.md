@@ -6,7 +6,7 @@ To run the game as seen in the tutorial, please run `yarn install` or `npm insta
 
 As in the tutorial, if you'd like to start from scratch, please use [Indigo's Giter8 template](https://github.com/PurpleKingdomGames/indigo.g8).
 
-> Please note that this contains Nix flake files. If you're not a Nix user, you can safely ignore / delete them.
+> Please note that this repo contains Nix flake files. If you're not a Nix user, you can safely ignore / delete them.
 
 This repo additionally contains a pre-compiled static website version of the game in the `docs` directory, which is served up by ghpages. It is the result of running `./mill snake.buildGameFull` and copying the output into the docs directory.
 
