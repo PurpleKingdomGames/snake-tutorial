@@ -2,9 +2,23 @@
 
 This repository accompanies a video tutorial available on YouTube, and contains the completed code.
 
+To run the game as seen in the tutorial, please run `yarn install` or `npm install` from the root directory (where `package.json` is located).
+
 As in the tutorial, if you'd like to start from scratch, please use [Indigo's Giter8 template](https://github.com/PurpleKingdomGames/indigo.g8).
 
 > Please note that this contains Nix flake files. If you're not a Nix user, you can safely ignore / delete them.
+
+This repo additionally contains a pre-compiled static website version of the game in the `docs` directory, which is served up by ghpages. It is the result of running `./mill snake.buildGameFull` and copying the output into the docs directory.
+
+You can play the game in three ways:
+
+1. Play online: [https://purplekingdomgames.github.io/snake-tutorial/](https://purplekingdomgames.github.io/snake-tutorial/)
+2. Running it yourself as in the tutorial: `./mill snake.runGame`
+3. Via a local web server:
+   1. `yarn install`
+   2. `cd docs`
+   3. `npx http-server -c-1`
+   4. Visit [http://localhost:8080](http://localhost:8080), or whatever the output of the previous command says is the correct address.
 
 Below follows the standard README from the Giter8 template.
 
