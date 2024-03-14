@@ -1,6 +1,6 @@
 # Snake Tutorial
 
-This repository accompanies a video tutorial available on YouTube, and contains the completed code.
+This repository accompanies a video tutorial available on YouTube called [Let's build Snake!](https://www.youtube.com/watch?v=YJtG5E_a9sw), and contains the completed code.
 
 To run the game as seen in the tutorial, please run `yarn install` or `npm install` from the root directory (where `package.json` is located).
 
